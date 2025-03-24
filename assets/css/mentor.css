@@ -1,0 +1,36 @@
+#mentor {
+    background: url(/assets/img/svg/back-mentor.svg);
+    /* height: 80vh; */
+    border-radius: 25px;
+    background-size: contain;
+    background-position: top;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin: 0px 10px;
+}
+.mentor-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img.mentor-img {
+    padding: 200px 0px;
+    width: 100%;
+}
+.mentor-content-mini {
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+}
+
+img.mentor-img-mini {
+    width: auto;
+}
+
+.sub_container.mentor {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}

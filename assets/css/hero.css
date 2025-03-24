@@ -1,0 +1,63 @@
+section#hero {
+    background-image: url(/assets/img/hero-back.png);
+    height: 80vh;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.hero-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.hero {
+    height: 100%;
+}
+
+.hero-right {
+    width: 50%;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+
+h1.hero-title {
+    font-size: 82px;
+    font-weight: 500;
+    line-height: 0.9;
+}
+
+p.hero-subtitle {
+    font-size: 48px;
+}
+
+.hero-left-bottom-contact {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #4548F5;
+}
+
+.hero-left-bottom {
+    position: absolute;
+    bottom: 20px;
+}
+
+img.hero-right-img {
+    width: 100%;
+    pointer-events: none;
+}
