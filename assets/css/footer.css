@@ -1,0 +1,142 @@
+footer {
+    width: 100%;
+    /*font: font2;*/
+}
+.footer {
+    position: relative;
+    height: 1050px;
+    border-radius: 32px;
+    background-color: #101010;
+    overflow: hidden;
+    background-image: url(/assets/img/new/footer-img-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 50px;
+    margin: 15px;
+    margin-top: 0;
+}
+
+.useful {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+}
+
+.useful-card {
+    width: 204px;
+    height: 259px;
+    background: #0000000A;
+    padding: 44px 16px;
+}
+
+.useful-card.black {
+    color: #FFFFFF;
+    background: #101010;
+}
+
+.useful-card-text {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.container.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 60px;
+    color: #FFFFFF;
+}
+.footer-logo {
+    width: 176px;
+    height: 72px;
+}
+.footer-title {
+    max-width: 400px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 100px;
+    /*font: font1*/
+}
+
+.footer-bg-img {
+    position: absolute;
+}
+
+.footer-bg-img.img-2 {
+    bottom: 0;
+    right: 80px;
+    width: 35%;
+    pointer-events: none;
+}
+
+.footer-contacts-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #FF9700;
+    border-bottom: 2px solid #FF9700;
+    padding: 20px 0;
+    gap: 10px;
+}
+
+.footer-contacts-elem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-contacts-label {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-contacts-text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-contacts-socials-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.footer-contacts-socials {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    align-items: center;
+}
+
+.footer-bottom-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.footer-bottom-left {
+    max-width: 30%;
+}
+
+.footer-bottom-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-bottom-link {
+    font-size: 16px;
+    color: #C4C5C5;
+    font-weight: 300;
+}
+
+.footer-bottom-copyright {
+    font-size: 18px;
+    font-weight: 400;
+    /*font: font1*/
+}

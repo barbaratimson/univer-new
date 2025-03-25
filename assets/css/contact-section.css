@@ -1,0 +1,105 @@
+.contact-section {
+    position: relative;
+    background: url(/assets/img/new/contact-section-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    height: auto;
+}
+
+.contact-section-big-text {
+    position: absolute;
+    right: 0;
+    bottom: -275px;
+}
+
+.contact-section-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 105px;
+}
+.contact-section-overflow {
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.contact-section-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 10px;
+}
+
+.contact-section-content-left {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 250px;
+    justify-content: center;
+}
+
+.contact-section-left-label {
+    font-size: 48px;
+    font-weight: 380;
+    width: 560px;
+}
+
+.contact-section-left-text {
+    font-size: 82px;
+    font-weight: 500;
+    min-width: 700px;
+}
+
+.contact-section-left-text > :last-child {
+    color: #4548F5;
+}
+
+.contact-section-content-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.contact-section-footer {
+    text-align: center;
+}
+
+.contact-section-footer-text {
+    font-size: 38px;
+    font-style: italic;
+}
+
+.contact-section-footer-text > span {
+    font-weight: 600;
+}
+
+.contact-section-follow-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-section-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    bottom: -15%;
+}
+
+.contact-section-form {
+    width: 100%;
+    padding: 20px;
+}
+
+.contact-section-card {
+    position: absolute;
+    right: 150px;
+    top: 100px;
+}

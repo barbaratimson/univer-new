@@ -1,0 +1,147 @@
+.schedule {
+    position: relative;
+    background: url(/assets/img/new/schedule-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0;
+}
+
+.schedule-header {
+    position: relative;
+    margin-left: 75px;
+}
+
+.schedule-header-text {
+    position: relative;
+    font-size: 82px;
+    font-weight: 500;
+    max-width: 750px;
+    z-index: 2;
+}
+
+.schedule-header-img {
+    position: absolute;
+    left: -115px;
+    bottom: 5px;
+    width: 430px;
+    z-index: 1;
+}
+
+.schedule-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    margin-top: 120px;
+    padding-bottom: 80px;
+    border-left: 4px solid #FF9700;
+}
+
+.schedule-dates {
+    display: flex;
+    flex-direction: row;
+    gap: 175px;
+    justify-content: center;
+}
+
+.schedule-date-card:last-child {
+    border: none;
+}
+
+
+.schedule-date-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 315px;
+    border-right: 1px solid #101010;
+}
+
+.schedule-date-card-desc-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 116px;
+}
+
+.schedule-date-card-date {
+    font-size: 156px;
+    font-weight: 400;
+    line-height: 120px;
+}
+.schedule-date-card-date-month {
+    font-size: 32px;
+    font-weight: 380px;
+}
+.schedule-date-card-text {
+    font-size: 32px;
+}
+.schedule-date-card-desc {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0000FF;
+}
+
+.schedule-calendar {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 100px;
+}
+
+.schedule-calendar-card {
+    position: relative;
+    padding: 16px;
+    width: 106px;
+    height: 148px;
+    border: 1px solid #101010;
+}
+
+.chedule-calendar-dot {
+    position: absolute;
+    top: -8px;
+    left: 10px;
+}
+
+.schedule-calendar-date {
+    font-size: 32px;
+    font-weight: 380;
+}
+
+.schedule-calendar-month {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.schedule-date-card-tooltip {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -10px;
+    top: 5;
+    width: 124px;
+    height: 30px;
+    background-color: #101010;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.schedule-logo-image {
+    position: absolute;
+    left: -235px;
+    top: -95px;
+}
+
+.schedule-date-card-arrow {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: -200px;
+}
+
+.blue {
+    background-color: #0000FF;
+}

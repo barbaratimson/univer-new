@@ -19,6 +19,12 @@ require_once 'config.php';
     <link rel="stylesheet" href="assets/css/for.css">
     <link rel="stylesheet" href="assets/css/roadmap.css">
     <link rel="stylesheet" href="assets/css/free-ctr.css">
+    <link rel="stylesheet" href="assets/css/schedule.css">
+    <link rel="stylesheet" href="assets/css/contact-section.css">
+    <link rel="stylesheet" href="assets/css/feedback.css">
+    <link rel="stylesheet" href="assets/css/clients.css">
+    <link rel="stylesheet" href="assets/css/follow.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
 </head>
 <body>
     <!-- Header -->
@@ -33,6 +39,11 @@ require_once 'config.php';
         <?php include 'includes/sections/for.php'; ?>
         <?php include 'includes/sections/roadmap.php'; ?>
         <?php include 'includes/sections/free-ctr.php'; ?>
+        <?php include 'includes/sections/schedule.php'; ?>
+        <?php include 'includes/sections/contact-section.php'; ?>
+        <?php include 'includes/sections/feedback.php'; ?>
+        <?php include 'includes/sections/clients.php'; ?>
+        <?php include 'includes/sections/follow.php'; ?>
     </main>
     
     <!-- Footer -->

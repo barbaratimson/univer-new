@@ -1,0 +1,132 @@
+.follow-wrapper {
+    position: relative;
+}
+
+.follow-ellipse {
+    position: absolute;
+    left: 0;
+    top: -370px;
+}
+.container.follow {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: url(/assets/img/new/follow-back.svg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+.follow-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.follow-right {
+    width: 100%;
+}
+
+
+.follow-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    max-width: 90%;
+}
+
+.follow-title {
+    font-size: 48px;
+    font-weight: 380;
+    max-width: 325px;
+    background-image: url(/assets/img/new/rectangle.svg);
+    background-size: contain;
+    background-position: 0px 20px;
+    background-repeat: no-repeat;
+}
+
+.follow-label {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 200px;
+    color: #0000FF;
+    align-items: end;
+}
+
+.follow-left-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.follow-list {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+
+.follow-list-elem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.follow-list-text {
+    font-size: 24px;
+    font-weight: 380;
+    max-width: 145px;
+}
+
+.follow-list-dot {
+    width: 14px;
+    height: 14px; 
+    background:#FF9700;
+    border-radius: 9999px
+}
+
+.follow-arrow {
+    display: flex;
+    align-items: start;
+    margin: 50px 50px;
+}
+
+.follow-subscribe-form {
+    width: 100%;
+}
+
+.folow-subscribe-form-button {
+    margin-left: auto;
+    height: 50px;
+}
+
+.input-wrapper {
+    width: 100%;
+}
+
+.input {
+    background-color: transparent;
+    color: #101010;
+    font-size: 16px;
+    border: 0;
+    border-bottom: 3px solid #101010;
+    transition: border-color 0.3s ease-in-out;
+    margin-bottom: 45px;
+    outline: none;
+    width: 100%;
+}
+
+.input-label {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.follow-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.follow-right-img {
+    width: 208px;
+    height: 273px;
+    margin-left: 120px;
+}
