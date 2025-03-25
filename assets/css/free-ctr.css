@@ -1,0 +1,23 @@
+.ctr-content {
+    display: flex;
+}
+
+.ctr-left {
+    width: 70%;
+}
+
+img.ctr-image {
+    width: 100%;
+}
+
+.ctr-right {
+    padding-right: 10vw;
+    padding: 40px;
+    width: 40%;
+}
+
+h2.ctr-title {
+    font-size: 100px;
+    text-align: right;
+    line-height: 0.8;
+}

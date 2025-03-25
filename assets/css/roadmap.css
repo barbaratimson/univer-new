@@ -1,0 +1,120 @@
+
+
+.roadmap__title {
+    font-size: 100px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .roadmap__subtitle {
+    font-size: 82px;
+    font-weight: 400;
+    padding-left: 40px;
+    font-family: 'TT Livret Display Trl itallyc';
+  }
+  .roadmap__container {
+    z-index: 9;
+    position: relative;
+}
+  .roadmap__content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 40px;
+  }
+
+  .roadmap__stage {
+    /* background-color: #fff; */
+    /* padding: 20px; */
+    /* border-radius: 8px; */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    display: grid;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-template-columns: 33% 3fr 3fr;
+  }
+
+  .roadmap__stage-title {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 16px;
+    font-family: sans-serif;
+    background: black;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+  }
+
+  .roadmap__course {
+    /* border-left: 4px solid #cfcfcf; */
+    /* padding-left: 16px; */
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .roadmap__level {
+    font-size: 14px;
+    font-weight: 700;
+    color: #666;
+    padding: 10px 40px;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    border: 1px black solid;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .roadmap__course-title {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-family: sans-serif;
+  }
+
+  .roadmap__course-description {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    font-family: sans-serif;
+  }
+
+  .roadmap__course-link {
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+
+  .roadmap__course-link:hover {
+    text-decoration: underline;
+  }
+
+  .roadmap__divider {
+    width: 100%;
+    height: 2px;
+    background-color: #FF9700;
+    margin: 0 auto;
+  }
+.roadmap__vider {
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+}
+.roadmap__gradient {
+    width: 630px;
+    height: 630px;
+    background: #0000FF;
+    border-radius: 99px;
+    position: absolute;
+    left: -5%;
+    filter: blur(401px);
+    z-index: 0;
+}
