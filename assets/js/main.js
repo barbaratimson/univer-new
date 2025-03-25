@@ -1,4 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
+    const menuButton = document.getElementById("menu-button")
+    const mobileMenuButton = document.getElementById("menu-button-2")
+
+    menuButton.addEventListener("click", ()=>{
+        document.querySelector(".mobile-menu").classList.toggle("visible")
+    })
+    
+    mobileMenuButton.addEventListener("click", ()=>{
+        document.querySelector(".mobile-menu").classList.toggle("visible")
+    })
+
     // Mobile menu toggle
     const menuToggle = document.querySelector('.menu-toggle');
     if (menuToggle) {

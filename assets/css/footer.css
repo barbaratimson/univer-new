@@ -138,5 +138,15 @@ footer {
 .footer-bottom-copyright {
     font-size: 18px;
     font-weight: 400;
-    /*font: font1*/
+    min-width: 320px;
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        background-position: right;
+    }
+    .img-2 {
+        right: -50% !important;
+        width: 100% !important;
+    }
 }

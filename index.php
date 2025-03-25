@@ -10,6 +10,7 @@ require_once 'config.php';
     <title><?php echo $site_title; ?></title>
     <!-- CSS files -->
     <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/mobile-menu.css">
     <link rel="stylesheet" href="assets/css/hero.css">
     <link rel="stylesheet" href="assets/css/btn.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
@@ -29,7 +30,10 @@ require_once 'config.php';
 <body>
     <!-- Header -->
     <!-- <?php include 'includes/header.php'; ?> -->
-    
+
+    <!-- Mobile Menu -->
+        <?php include 'includes/mobile-menu.php'; ?>
+
     <!-- Main Content Sections -->
     <main>
         <?php include 'includes/sections/hero.php'; ?>
@@ -43,6 +47,7 @@ require_once 'config.php';
         <?php include 'includes/sections/contact-section.php'; ?>
         <?php include 'includes/sections/feedback.php'; ?>
         <?php include 'includes/sections/clients.php'; ?>
+        <?php include 'includes/sections/follow.php'; ?>
         <?php include 'includes/sections/follow.php'; ?>
     </main>
     

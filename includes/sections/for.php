@@ -3,7 +3,9 @@
         <div class="coaching-mentoring-block">
 
             <div class="for-title">
-                <img src="assets/img/svg/cou.svg" alt="">
+                <img class="for-img" src="assets/img/svg/cou.svg" alt="">
+                <img class="for-img-mobile" src="assets/img/svg/cou-mobile.svg" alt="">
+                <div class="coaching-cards">
                 <div class="card card-cou-1">
                     <div class="card-number">01</div>
                     <div class="card-image" style="background-image: url('assets/img/cou-1.png');">
@@ -16,6 +18,7 @@
                     <div class="card-number">02</div>
                    <img src="assets/img/cou-2.png" alt="">
                     <p class="card-text">Индивидуальный подход к потребностям вашего бизнеса в области профессионального коучинга и менторинга</p>
+                </div>
                 </div>
             </div>
         </div>

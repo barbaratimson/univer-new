@@ -5,6 +5,7 @@ section#hero {
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    position: relative;
 }
 
 .hero-left {
@@ -60,4 +61,28 @@ p.hero-subtitle {
 img.hero-right-img {
     width: 100%;
     pointer-events: none;
+}
+
+.hero-mobile-navbar {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+    section#hero {
+        margin: 0;
+        border-radius: 0;
+    }
+    .container.hero {
+        padding: 30px;
+    }
+    .hero-mobile-navbar {
+        display: flex;
+    }
 }

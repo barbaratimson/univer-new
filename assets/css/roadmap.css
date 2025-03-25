@@ -118,3 +118,15 @@
     filter: blur(401px);
     z-index: 0;
 }
+
+.roadmap .container {
+  position: relative;
+}
+
+.roadmap {
+  overflow: visible;
+}
+
+.roadmap__gradient {
+  position: absolute;
+}

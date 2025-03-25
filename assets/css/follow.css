@@ -6,6 +6,8 @@
     position: absolute;
     left: 0;
     top: -370px;
+    pointer-events: none;
+    z-index: 0;
 }
 .container.follow {
     position: relative;
@@ -19,7 +21,9 @@
 .follow-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
 }
 
 .follow-right {
@@ -129,4 +133,36 @@
     width: 208px;
     height: 273px;
     margin-left: 120px;
+}
+
+@media (max-width: 1024px) {
+    .follow-header {
+        max-width: unset;
+        width: 100%;
+    }
+
+    .follow-arrow {
+        justify-content: center;
+    }
+
+    .follow-arrow-img {
+        transform: rotate(90deg);
+    }
+
+    .container.follow {
+        background-position: left center;
+    }
+
+    .follow-content {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .follow-subscribe-form {
+        width: 50%;
+    }
+
+    .follow-label {
+        display: none;
+    }
 }

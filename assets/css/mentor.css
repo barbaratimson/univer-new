@@ -34,3 +34,9 @@ img.mentor-img-mini {
     align-content: center;
     align-items: center;
 }
+
+@media (max-width: 1024px) {
+    #mentor {
+        background-size: cover;
+    }
+}

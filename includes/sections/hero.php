@@ -1,5 +1,13 @@
 <section id="hero" class="hero-section">
     <div class="container hero">
+    <div class="hero-mobile-navbar">
+        <div class="hero-mobile-navbar-left">
+            <img src="assets/img/new/mobile-navbar-phone.svg"/>
+        </div>
+        <div id="menu-button" class="hero-mobile-navbar-right">
+            <img src="assets/img/new/mobile-navbar-menu.svg"/>
+        </div>
+    </div>
         <div class="hero-content">
             <div class="hero-left">
                <div class="hero-left-top">

@@ -126,8 +126,35 @@
     align-content: center;
     margin: 200px 0px 50px 0px;
 }
+
+.coaching-cards {
+  display: flex;
+  flex-direction: row;
+}
+.for-img-mobile {
+  display: none;
+}
+
+.for-img{
+  display: block;
+}
+
   @media (max-width: 1024px) {
+    .for-img {
+      display: none;
+    }
+
+    .for-img-mobile {
+      display: block;
+      scale: 0.7;
+    }
+    .for-title {
+      display: flex;
+      flex-direction: column;
+      scale: 0.9;
+    }
     .container {
+      display: flex;
       flex-direction: column;
       align-items: center;
     }

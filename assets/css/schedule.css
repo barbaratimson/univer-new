@@ -55,13 +55,20 @@
     flex-direction: column;
     width: 315px;
     border-right: 1px solid #101010;
+    height: 475px;
+}
+
+.schedule-date-card .btn{
+    margin-top: auto;
 }
 
 .schedule-date-card-desc-wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: end;
     gap: 24px;
     margin-top: 116px;
+    height: 100%;
 }
 
 .schedule-date-card-date {
@@ -71,7 +78,7 @@
 }
 .schedule-date-card-date-month {
     font-size: 32px;
-    font-weight: 380px;
+    font-weight: 380;
 }
 .schedule-date-card-text {
     font-size: 32px;
@@ -119,7 +126,7 @@
     justify-content: center;
     align-items: center;
     right: -10px;
-    top: 5;
+    top: 5px;
     width: 124px;
     height: 30px;
     background-color: #101010;
@@ -144,4 +151,33 @@
 
 .blue {
     background-color: #0000FF;
+}
+
+@media (max-width: 1024px) {
+    .schedule-dates {
+        gap: 20px;
+        scale: 0.85;
+    }
+    .schedule-wrapper {
+        border: none;
+    }
+
+    .schedule-header-img {
+        left: -80px;
+    }
+
+    .schedule-logo-image {
+        left: -225px;
+        top: 15px;
+    }
+
+    .schedule-date-card-arrow {
+        scale: 0.5;
+        right: -120px;;
+    }
+
+    .schedule-calendar {
+        margin-left: 0;
+        width: 100%;
+    }
 }

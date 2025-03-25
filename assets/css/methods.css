@@ -65,3 +65,29 @@ span.accent-back {
 .method-content-mini {
     min-width: 35%;
 }
+
+@media (max-width: 1024px) {
+    .container {
+        margin: 0;
+        overflow: hidden;
+        width: 100%;
+        max-width: unset;
+    }
+
+    .methods {
+        margin: 0;
+    }
+
+    .method-content-mini {
+        display: flex;
+        align-items: start;
+    }
+
+    .methods-content {
+        max-width: unset;
+    }
+
+    .method-content-mini {
+        width: auto;
+    }
+}
