@@ -48,7 +48,6 @@ require_once 'config.php';
         <?php include 'includes/sections/feedback.php'; ?>
         <?php include 'includes/sections/clients.php'; ?>
         <?php include 'includes/sections/follow.php'; ?>
-        <?php include 'includes/sections/follow.php'; ?>
     </main>
     
     <!-- Footer -->
