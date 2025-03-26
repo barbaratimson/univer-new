@@ -4,6 +4,7 @@
             <div class="contact-section-header">
                 <img src="assets/img/new/contact-section-header.png">
             </div>
+            <img class="contact-section-card" src="assets/img/new/contact-section-card.svg">
             <div class="contact-section-content">
                 <div class="contact-section-content-left">
                     <div class="contact-section-left-label">Нужна помощь с выбором программы?</div>
@@ -29,7 +30,6 @@
                     </form>
                 </div>
             </div>
-            <img class="contact-section-card" src="assets/img/new/contact-section-card.svg">
         </div>
     </section>
     <div class="contact-section-footer">

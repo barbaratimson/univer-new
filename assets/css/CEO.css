@@ -17,3 +17,9 @@ img.CEO-img {
 .CEO-content {
     position: relative;
 }
+
+@media (max-width: 360px) {
+    .CEO-btn {
+        left: 25%;
+    }
+}

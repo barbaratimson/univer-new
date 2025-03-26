@@ -7,6 +7,11 @@
     margin: 0;
 }
 
+.schedule-date-card-date-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
 .schedule-header {
     position: relative;
     margin-left: 75px;
@@ -179,5 +184,77 @@
     .schedule-calendar {
         margin-left: 0;
         width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    .schedule {
+        background: none;
+    }
+    .schedule-header {
+        margin: 0;
+    }
+
+    .schedule-header-img {
+        top: 50px;
+        left: -295px;
+    }
+
+    .schedule-logo-image {
+        display: none;
+    }
+
+    .schedule-wrapper {
+        gap: 20px;
+    }
+
+    .schedule-date-card-desc-wrapper {
+        gap:10px;
+        margin: 0;
+    }
+
+    .schedule-header-text {
+        font-size: 38px;
+    }
+
+    .schedule-dates {
+        flex-direction: column;
+        scale: initial;
+        border-left: 1px solid #FF9700;
+        gap: 35px;
+    }
+    .schedule-date-card {
+        height: auto;
+        gap: 20px;
+    }
+    .schedule-date-card-date-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        padding: 25px;
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+        border: 1px solid #FF9700;
+    }
+    .schedule-date-card-arrow {
+        left: 60px;
+    }
+
+    .schedule-calendar-card {
+        padding: 5px;
+    }
+    .schedule-date-card {
+        width: 100%;
+        border: none;
+    }
+
+    .schedule-date-card-date {
+        font-size: 100px;
+        line-height: 80px;
+    }
+
+    .schedule-date-card-text {
+        padding-left: 5px;
     }
 }

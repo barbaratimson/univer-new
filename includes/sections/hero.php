@@ -11,6 +11,10 @@
         <div class="hero-content">
             <div class="hero-left">
                <div class="hero-left-top">
+
+               <div class="hero-mobile-logo">
+                <img src="assets/img/new/logo-mobile.png">
+               </div>
                <p class="hero-subtitle">Международный<br> Университет коучинга </p>
                 <h1 class="hero-title">Global<br> Coaching</h1>
            
@@ -18,11 +22,14 @@
                </div>
                <div class="hero-left-bottom">
                 <div class="hero-left-bottom-contact">
-                    Мы в социальных сетях <img src="/assets/img/svg/arrow-blue-long.svg" alt=""> 
+                    <div class="contact-text">
+                        <p>Мы в соцсетях</p>
+                        <img src="/assets/img/svg/arrow-blue-long.svg" alt="">
+                    </div>
                     <div class="socials">
-                        <a class="social-link" href=""><img src="/assets/img/svg/vk.svg" alt=""></a>
-                        <a class="social-link" href=""><img src="/assets/img/svg/tg.svg" alt=""></a>
-                        <a class="social-link" href=""><img src="/assets/img/svg/yt.svg" alt=""></a>
+                        <a class="social-link" href="https://vk.com/coachuniver"><img src="/assets/img/svg/vk.svg" alt=""></a>
+                        <a class="social-link" href="https://t.me/globalcoach_club"><img src="/assets/img/svg/tg.svg" alt=""></a>
+                        <a class="social-link" href="https://youtube.com/@aleksandrapritsker?si=qGk-uQBs5ZJIu64B"><img src="/assets/img/svg/yt.svg" alt=""></a>
                     </div>
                 </div>
                </div>

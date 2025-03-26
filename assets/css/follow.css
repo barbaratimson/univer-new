@@ -1,5 +1,6 @@
 .follow-wrapper {
     position: relative;
+    margin-top: 72px;
 }
 
 .follow-ellipse {
@@ -164,5 +165,48 @@
 
     .follow-label {
         display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .follow-list {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .follow-list-elem:nth-child(1) {
+        align-self: start;
+    }
+    .follow-list-elem:nth-child(2) {
+        align-self: center;
+    }
+    .follow-list-elem:nth-child(3) {
+        align-self: end;
+    }
+    .container.follow {
+        background-position: -5% 10%;
+        background-size: 600px;
+    }
+    .follow-ellipse {
+        display: none;
+    }
+    .follow-arrow {
+        display: none;
+    }
+    .follow-right {
+        flex-direction: column;
+    }
+    .follow-subscribe-form {
+        width: 100%;
+    }
+
+    .follow-right-img {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .follow-title {
+        background-position: initial;
+        font-size: 24px;
     }
 }

@@ -1,7 +1,8 @@
 <div class="mobile-menu">
     <div class="hero-mobile-navbar">
         <div class="hero-mobile-navbar-left">
-            <img src="assets/img/new/mobile-navbar-phone.svg"/>
+            <img class="tablet" src="assets/img/new/mobile-navbar-phone.svg"/>
+            <img class="mobile" src="assets/img/new/logo-mobile.png"/>
         </div>
         <div id="menu-button-2" class="hero-mobile-navbar-right">
             <img src="assets/img/new/mobile-navbar-menu.svg"/>

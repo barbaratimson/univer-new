@@ -1,5 +1,5 @@
 <section id="for" class="for">
-    <div class="container">
+    <div class="container for-wrapper">
         <div class="coaching-mentoring-block">
 
             <div class="for-title">
@@ -16,14 +16,14 @@
 
                 <div class="card card-cou-2">
                     <div class="card-number">02</div>
-                   <img src="assets/img/cou-2.png" alt="">
+                   <img class="card-image" src="assets/img/cou-2.png" alt="">
                     <p class="card-text">Индивидуальный подход к потребностям вашего бизнеса в области профессионального коучинга и менторинга</p>
                 </div>
                 </div>
             </div>
         </div>
         <div class="for-bottom">
-            <img src="assets/img/svg/bottom.svg" alt="">
+            <img src="assets/img/new/contact-section-header.png" alt="">
         </div>
     </div>
 </section>

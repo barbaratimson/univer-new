@@ -91,3 +91,22 @@ span.accent-back {
         width: auto;
     }
 }
+
+@media (max-width: 360px) {
+    .methods-flex {
+        width: 100%;
+        flex-direction: column;
+    }
+    .method-bottom {
+        flex-direction: column;
+    }
+
+    .methods-title {
+        font-size: 24px;
+    }
+
+    .method-item p {
+        font-size: 16px;
+    }
+
+}

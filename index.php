@@ -37,6 +37,7 @@ require_once 'config.php';
     <!-- Main Content Sections -->
     <main>
         <?php include 'includes/sections/hero.php'; ?>
+        <?php include 'includes/sections/mobile-block-1.php'; ?>
         <?php include 'includes/sections/mentor.php'; ?>
         <?php include 'includes/sections/methods.php'; ?>
         <?php include 'includes/sections/CEO.php'; ?>

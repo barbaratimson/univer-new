@@ -14,6 +14,14 @@
     background-color: #f3fbfe;
 }
 
+.hero-mobile-navbar-left .tablet {
+    display: block;
+}
+
+.hero-mobile-navbar-left .mobile {
+    display: none;
+}
+
 .mobile-menu.visible {
     display: flex;
 }
@@ -62,4 +70,32 @@
 .mobile-menu-button {
     margin-right: 30px;
     margin-top: 100px;
+}
+
+@media (max-width: 360px) {
+    .mobile-menu-option {
+        font-size: 24px;
+    }
+    .mobile-menu-phone {
+        font-size: 24px;
+    }
+
+    .mobile-menu-button {
+        margin-top: 40px;
+    }
+
+    .hero-mobile-navbar-left .tablet {
+        display: none;
+    }
+
+    .hero-mobile-navbar-left .mobile {
+        display: flex;
+    }
+
+    .hero-mobile-navbar-left > img {
+        width: 125px;
+    }
+    .hero-mobile-navbar-right > img{
+        width: 125px;
+    }
 }

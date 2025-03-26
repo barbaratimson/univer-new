@@ -130,3 +130,15 @@
 .roadmap__gradient {
   position: absolute;
 }
+
+
+@media (max-width: 360px) {
+  .roadmap__title, .roadmap__title > * {
+      font-size: 44px;
+  }
+
+  .roadmap__stage {
+    display: flex;
+    flex-direction: column;
+  }
+}
